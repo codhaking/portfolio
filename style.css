@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Diplomata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.mylogo img{
+	position: relative;
+	top: 100px;
+	left: 100px;
+	border-radius: 20px;
+}
+.mylogo img:hover{
+	transition: 0.3s;
+	transition-property: transform;
+	transform: scale(1.5);
+}
+header{
+	position: relative;
+	width: 100%;
+	min-height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background: url(img1.jpg)no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.main_body {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background-color: #ADD8FF;
+	padding-bottom: 200px;
+}
+
+h1.first	{
+	font-size: 50px;
+	color: black;
+	font-family: 'DotGothic16', sans-serif;
+	position: relative;
+	left: 100px;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+header .logo{
+	position: relative;
+}
+
+header nav.main_nav a{
+	color: black;
+ 	text-decoration: none;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+	padding: 2px 15px;
+	border-radius: 20px;
+
+}
+
+header nav.main_nav a:not(:last-child){
+	margin-right: 30px;
+}
+
+header nav.main_nav a:hover{
+	background: white;
+}
+
+
+.content {
+	max-height: 650px;
+	margin:60px 100px;
+}
+
+.content p{
+	color: #25283D;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	position: relative;
+
+}
+
+main .main_description h1.titular{
+	font-family: 'Diplomata', cursive;
+	font-size: 50px;
+	font-weight: 500;
+	background-color: #283845;
+	color: whitesmoke;
+	width: 600px;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+.middle{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+
+}
+
+
+
+.title{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+	color: #25283D;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+
+.main_description{
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+.myimg{
+	width: auto;
+	height: 450px;
+	border-radius: 300px;
+	padding-top: 100px;
+	margin-left: 200px;
+
+}
+
+
+main .info_btn{
+	color: whitesmoke;
+	background: #8A817C;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+	padding: 10px 20px;
+	border-radius: 5px;  
+	margin: 0;
+  	position: relative;
+ 	top: 100px;
+ 	left: 600px
+}
+
+main .info_btn:hover{
+	background: #BCB8B1;
+}
+
+.media_icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+.media_icons a{
+	position: relative;
+	color: #111;
+	font-size: 25px;
+	transition: 0.5s;
+	transition-property: transform;
+}
+
+.media_icons a:not(:last-child){
+	margin-right: 60px;
+
+}
+
+.media_icons a:hover{
+	transform: scale(1.5);
+
+}
+
+.lower_webmain{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.lower_web1, .lower_web2, .lower_web3{
+	background-color: #839D9A;
+	box-sizing: border-box;
+	box-shadow: 5px 10px rgba(54, 134, 191, 0.2) ;
+	padding: 30px;
+	border-radius: 15px;
+	height: 250px;
+	line-height: 30px;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	letter-spacing: 1.2px;
+	color: #fff;
+}
+
+.centered{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 1000;
+	text-transform: bold;
+}
+
+footer{
+	padding: 25px;
+	background-color: #839D9A;
+}

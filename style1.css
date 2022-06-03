@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background: url('img3.jpg') no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
+.reg_form{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+}
+
+
+.reg_form h1{
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 40px 0;
+}
+
+.reg_form p{
+	font-size: 20px;
+	margin: 16px 0;
+}
+.reg_form input,select {
+	font-size: 16px;
+	padding: 15px 10px;
+	width: 100%;
+	border: 0;
+	border-radius: 8px;
+	outline: none;
+}
+
+
+.footer{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding: 20px;
+	margin: 20px;
+	font-family: 'poppins';
+}
+
+.submit{
+	margin: 45px;
+	position: relative;
+	right: 35px;
+}
+
+nav {
+	position: absolute;
+	top: 0;
+	width: auto;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 30px 50px;
+	background-color: #fff;
+	background-image: url(img1.jpg);
+/*	display: flex;
+	justify-content: flex-start;
+	align-items: center;*/
+}
+
+
+header nav a{
+	color: black;
+ 	text-decoration: none;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+	padding: 2px 15px;
+	border-radius: 20px;
+}
+
+.push{
+	margin-top: 150px;
+}
+
+.log{
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	width: 400px;
+	text-transform: uppercase;
+}
+
+.log input{
+	padding: 15px 10px;
+	width: 100%;
+	border: 0;
+	border-radius: 8px;
+	outline: none;
+	margin: 10px;
+}
+
+button{
+	padding: 10px;
+	width: 150px;
+	border-radius: 10px;
+	background-color: #fff;
+	color: black;
+	border: 0;
+	position: relative;
+	left: 10px;
+}
+
+textarea{
+	border-radius: 10px;
+	height: 300px;
+	width: 100%;
+	padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
